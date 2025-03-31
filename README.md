@@ -1,43 +1,116 @@
-# Smart Resume Analyser App
+# AI-Powered Resume Screening and Ranking System
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
-[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)   
+## Project Overview
 
-## [Watch Tutorial for this project](https://youtu.be/hqu5EYMLCUw)
-<img src="https://github.com/Spidy20/Smart_Resume_Analyser_App/blob/master/yt_thumb.jpg">
+This project is an **AI-Powered Resume Screening and Ranking System** designed to automate and streamline the recruitment process. It leverages **Natural Language Processing (NLP)** and **Machine Learning (ML)** techniques to parse, analyze, and rank resumes based on job-specific requirements. The system aims to reduce manual effort, minimize biases, and improve hiring efficiency by providing recruiters with a structured and data-driven approach to candidate evaluation.
 
-## [Get the project Report, PPT, and Diagrams](https://kushalbhavsar1820.stores.instamojo.com/product/864991/smart-resume-analyzer-ppt-report-and-diagram-c091f/)
-## Source
-- Extracting user's information from the Resume, I used [PyResparser](https://omkarpathak.in/pyresparser/)
-- Extracting Resume PDF into Text, I used [PDFMiner](https://pypi.org/project/pdfminer/).
+---
 
-## Features
-- User's & Admin Section
-- Resume Score
-- Career Recommendations
-- Resume writing Tips suggestions
-- Courses Recommendations
-- Skills Recommendations
-- Youtube video recommendations
+## Key Features
 
-## Usage
-- Clone my repository.
-- Open CMD in working directory.
-- Run following command.
-  ```
-  pip install -r requirements.txt
-  ```
-- `App.py` is the main Python file of Streamlit Web-Application. 
-- `Courses.py` is the Python file that contains courses and youtube video links.
-- Download XAMP or any other control panel, and turn on the Apache & SQL service.
-- To run app, write following command in CMD. or use any IDE.
-  ```
-  streamlit run App.py
-  ```
-- `Uploaded_Resumes` folder is contaning the user's uploaded resumes.
-- `Classifier.py` is the main file which is containing a KNN Algorithm.
-- For more explanation of this project see the tutorial on Machine Learning Hub YouTube channel.
-- Admin side credentials is `machine_learning_hub` and password is `mlhub123`. 
+### For Applicants:
+- **Resume Parsing:** Extracts key information (skills, experience, education, etc.) from unstructured resumes and converts them into a structured format.
+- **Personalized Recommendations:** Suggests skills, courses, and resume improvements to enhance job prospects.
+- **Resume Scoring:** Provides an overall score based on content relevance and completeness.
+- **Interview Tips:** Offers video recommendations for resume writing and interview preparation.
+
+### For Recruiters/Admins:
+- **Automated Screening:** Quickly filters and ranks resumes based on predefined criteria.
+- **Data Analytics:** Visualizes applicant data through interactive charts (e.g., skill distribution, predicted job roles).
+- **Exportable Reports:** Allows downloading applicant data in CSV format for further analysis.
+- **Feedback System:** Collects and displays user feedback and ratings.
+
+---
+
+## Technologies Used
+
+### Frontend:
+- **Streamlit** (Python library for building interactive web apps)
+- **HTML/CSS/JavaScript** (for UI enhancements)
+
+### Backend:
+- **Python** (primary programming language)
+- **Natural Language Processing (NLP)** (for text extraction and analysis)
+- **Machine Learning** (for resume ranking and recommendations)
+
+### Database:
+- **MySQL/SQLite** (for storing user data, feedback, and admin credentials)
+
+### Libraries:
+- **PyPDF2** (for PDF text extraction)
+- **Pandas** (for data manipulation and CSV generation)
+- **Matplotlib** (for data visualization)
+- **scikit-learn/NLTK** (for NLP and ML tasks)
+
+---
+
+## System Architecture
+
+The system is divided into three main modules:
+1. **Client Module:** Handles resume uploads, parsing, and recommendations.
+2. **Admin Module:** Provides analytics, user data management, and feedback review.
+3. **Feedback Module:** Collects and displays user feedback.
+
+### Data Flow:
+1. User uploads a resume.
+2. The system parses the resume and extracts relevant information.
+3. The extracted data is analyzed and scored.
+4. Recommendations and insights are generated for the user.
+5. Data is stored in the database for admin access and analytics.
+
+---
+
+## Installation and Setup
+
+### Prerequisites:
+- Python 3.8 or higher
+- MySQL or SQLite database
+- Streamlit (`pip install streamlit`)
+- Required Python libraries (`pip install -r requirements.txt`)
+
+### Steps to Run:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/resume-screening-system.git
+   cd resume-screening-system
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Set up the database:
+   - Configure MySQL/SQLite connection in `config.py`.
+   - Run the database initialization script (if provided).
+4. Launch the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
+5. Access the application at `http://localhost:8501`.
+
+---
+
+## Screenshots
+
+### User-Side View:
+![Client-Side](https://via.placeholder.com/600x400?text=Client-Side+View)
+
+### Admin-Side View:
+![Admin-Side](https://via.placeholder.com/600x400?text=Admin-Side+View)
+
+---
+
+## Future Enhancements
+- Integration with **Applicant Tracking Systems (ATS)**.
+- Support for **multi-language resume parsing**.
+- Enhanced **bias detection and mitigation** in ranking algorithms.
+- **Real-time collaboration** for hiring teams.
+
+---
+
+## License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+
 
 ## Screenshots
 
@@ -48,7 +121,3 @@
 <img src="https://github.com/Spidy20/Smart_Resume_Analyser_App/blob/master/sc2.png">
 
 
-## Just follow☝️ me and Star⭐ my repository 
-
-# [Buy me a Coffee☕](https://www.buymeacoffee.com/spidy20)
-## [Donate me on PayPal(It will inspire me to do more projects)](https://www.paypal.me/spidy1820)
