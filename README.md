@@ -95,7 +95,7 @@ The system is divided into three main modules:
 ![User-Side](sc1.png)
 
 ### Admin-Side View:
-![Admin-Side](https://via.placeholder.com/600x400?text=Admin-Side+View)
+![Admin-Side](sc2.png)
 
 ---
 
@@ -109,15 +109,3 @@ The system is divided into three main modules:
 
 ## License
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
-
-
-## Screenshots
-
-## User side
-<img src="https://github.com/Spidy20/Smart_Resume_Analyser_App/blob/master/sc1.png">
-
-## Admin Side
-<img src="https://github.com/Spidy20/Smart_Resume_Analyser_App/blob/master/sc2.png">
-
-
