@@ -92,7 +92,7 @@ The system is divided into three main modules:
 ## Screenshots
 
 ### User-Side View:
-![Client-Side](https://via.placeholder.com/600x400?text=Client-Side+View)
+![User-Side](sc1.png)
 
 ### Admin-Side View:
 ![Admin-Side](https://via.placeholder.com/600x400?text=Admin-Side+View)
